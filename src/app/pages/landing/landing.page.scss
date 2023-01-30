@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-food {
+  ion-card {
+    --background: url(../../../assets/imgs/bg-pizarra.jpg) 0 0/100% 100%
+      no-repeat;
+  }
+  ion-card-title {
+    color: #fff;
+  }
+  ion-card-content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+  }
+}
+
+#row__button {
+  width: 150px;
+  height: 450px;
+}
+
+ion-button {
+  --background: #fa6b1d;
+  --background-hover: #ff5900;
+  --background-activated: #ff5900;
+  --background-focused: #ff5900;
+
+  --color: #fff;
+  --border-radius: 12px;
+  --border-color: none;
+  --border-style: solid;
+  --border-width: 0;
+
+  --padding-top: 5px;
+  --padding-bottom: 5px;
+}

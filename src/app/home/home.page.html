@@ -1,20 +1,16 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content class="main">
+  <div class="container">
+    <ion-img
+      class="container__img"
+      src="../../assets/imgs/img-chef.png"
+    ></ion-img>
+  </div>
+  <app-swiper></app-swiper>
+  <div class="container-button">
+    <ion-icon name="restaurant-outline" id="restaurant"></ion-icon>
+    <ion-button class="container-second__button" routerLink="/landing" id="container-second__button">
+      Next
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </ion-button>
   </div>
 </ion-content>

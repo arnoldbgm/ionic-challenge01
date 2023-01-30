@@ -1,27 +1,50 @@
-#container {
-  text-align: center;
+@import "swiper/css";
+@import "@ionic/angular/css/ionic-swiper";
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.main {
+  --background: url(../../assets/imgs/Background.jpg) 0 0/100% 100% no-repeat;
+
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    .container__img {
+      width: 325px;
+      height: 325px;
+      margin-top: 20%;
+    }
+  }
+}
+.container-button {
+  display: flex;
+  margin: 0 30px 0 30px;
+  justify-content: space-between;
+  #restaurant {
+    width: 56px;
+    height: 56px;
+    color: #fff;
+  }
+  .container-second__button {
+    width: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
+#container-second__button {
+  --background: #fa6b1d;
+  --background-hover: #ff5900;
+  --background-activated: #ff5900;
+  --background-focused: #ff5900;
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+  --color: #fff;
+  --border-radius: 12px;
+  --border-color: none;
+  --border-style: solid;
+  --border-width: 0;
 
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+  --padding-top: 5px;
+  --padding-bottom: 5px;
 }

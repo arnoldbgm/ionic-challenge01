@@ -1,0 +1,23 @@
+.container-second {
+  margin: 50px 20px 0 20px;
+
+  .container-second--template {
+    display: flex;
+    flex-direction: column;
+
+    .container-second__title {
+      width: 98%;
+      font-size: 50px;
+      font-weight: 700;
+      text-align: left;
+      color: #fff;
+    }
+
+    .container-second__subtitle {
+      width: 95%;
+      text-align: justify;
+      color: #fff;
+
+    }
+  }
+}
